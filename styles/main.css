@@ -57,9 +57,8 @@ ul.menu {
 }
 
 ul.menu > li {
-  width: 33%;
+  width: 33.3%;
   float: left;
-  padding: .5vh 0;
 }
 
 li.active {
@@ -67,9 +66,11 @@ li.active {
 }
 
 a.menu {
-  text-align: center;
-  text-decoration: none;
-  color: white;
+    padding: .5vh 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 
