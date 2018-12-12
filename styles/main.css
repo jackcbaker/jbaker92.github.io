@@ -1,0 +1,81 @@
+/* Overall containers */
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+div.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1040px;
+    background-color: white;
+    margin: auto;
+}
+
+
+/* Titlebar */
+
+div.topbar {
+    position: relative;
+    width: 100vw;
+    max-width: 1040px;
+    background-color: purple;
+    height: 10vh;
+}
+
+div.titlebar {
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    padding: 1vh 1vw;
+    font-family: "Verdana", Arial, sans-serif;
+}
+
+a.button {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin: 0 .5vw;
+}
+
+
+/* Navigation bar */
+
+ul.menu {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 3vh;
+  border-top: .1vh solid black;
+  border-bottom: .1vh solid black;
+  background-color: purple;
+  font-family: Georgia, serif;
+}
+
+ul.menu > li {
+  width: 33%;
+  float: left;
+  padding: .5vh 0;
+}
+
+li.active {
+    background-color: #660066;
+}
+
+a.menu {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Content */
+
+div.content {
+    padding: 5vh;
+    font-size: 14pt;
+}
