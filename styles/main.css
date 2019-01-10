@@ -29,11 +29,11 @@ div.topbar {
     width: 100vw;
     max-width: 1040px;
     background-color: purple;
-    height: 8vmin;
+    height: 10vmin;
 }
 
 div.titlebar {
-    font-size: 6em;
+    font-size: 8em;
     font-weight: bold;
     color: white;
     padding: 1vmin;
@@ -56,7 +56,7 @@ ul.menu {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 3em;
+  font-size: 5em;
   border-top: .3vmin solid black;
   border-bottom: .3vmin solid black;
   background-color: purple;
