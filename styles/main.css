@@ -91,7 +91,7 @@ div.content {
     font-size: 3.5em
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
     color: #4d004d;
 }
 
@@ -121,4 +121,12 @@ ul.deets > li {
 
 a.invisible {
     text-decoration: none;
+}
+
+ul.bloglist {
+    list-style-type: none;
+    font-family: courier;
+    font-size: 1em;
+    margin: 0;
+    color: #4d004d;
 }
