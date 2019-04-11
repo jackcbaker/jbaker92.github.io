@@ -24,6 +24,11 @@ div.container {
     overflow: auto;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.5em;
+}
 
 /* Titlebar */
 
@@ -127,6 +132,5 @@ ul.bloglist {
     list-style-type: none;
     font-family: courier;
     font-size: 1em;
-    margin: 0;
     color: #4d004d;
 }
